@@ -1,0 +1,32 @@
+
+  .container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .arr{
+    width: 25px;
+    height: 25px;
+    border: 10px solid #333;
+    border-left: 0;
+    border-top: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: rotate(90deg);
+  }
+.arr2{
+    width: 25px;
+    height: 25px;
+    border: 10px solid #333;
+    border-left: 0;
+    border-top: 0;
+  
+    transform: rotate(90deg);
+}
+.align {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-2%, -50%);
+  }
